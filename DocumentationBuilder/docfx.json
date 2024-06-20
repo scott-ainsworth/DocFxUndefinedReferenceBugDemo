@@ -1,0 +1,50 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "Root.Datastore.Abstractions/Root.Datastore.Abstractions.csproj",
+          ]
+        }
+      ],
+      "dest": "api",
+      "memberLayout": "separatePages",
+      "includeExcplicitInterfaceImplementations": true,
+      "TargetFramework": "netstandard2.0",
+      "categoryLayout": "nested",
+      "namespaceLayout": "nested"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+        "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default"
+    ],
+    "globalMetadata": {
+      "_appName": "API Documentation",
+      "_appTitle": "API Documentation",
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "pdf": false
+    }
+  }
+}

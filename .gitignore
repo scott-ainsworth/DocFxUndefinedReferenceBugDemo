@@ -1,0 +1,7 @@
+﻿*.swp
+.vs/
+bin/
+obj/
+/DocumentationBuilder/api/
+/DocumentationBuilder/_site/
+.DS_Store
